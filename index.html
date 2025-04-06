@@ -1,201 +1,383 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Autism Awareness</title>
-    <link rel="stylesheet" href="./output.css" />
-  </head>
-  <body>
-    <header>
-      <nav class="bg-white border-gray-200 dark:bg-gray-900">
-        <div
-          class="max-w-screen-xl flex flex-wrap items-center justify-end mx-auto p-4"
-        >
-          <button
-            data-collapse-toggle="navbar-default"
-            type="button"
-            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-            aria-controls="navbar-default"
-            aria-expanded="false"
-          >
-            <span class="sr-only">Open main menu</span>
-            <svg
-              class="w-5 h-5"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 17 14"
-            >
-              <path
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M1 1h15M1 7h15M1 13h15"
-              />
-            </svg>
-          </button>
-        </div>
-        <div
-          class="max-w-screen-xl flex flex-wrap items-center justify-center mx-auto"
-        >
-          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul
-              class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
-            >
-              <li>
-                <a
-                  href="#"
-                  class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
-                  aria-current="page"
-                  >Home</a
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Autism Awareness</title>
+        <link rel="stylesheet" href="./output.css" />
+    </head>
+    <body>
+        <header>
+            <nav class="bg-white border-gray-200 dark:bg-gray-900">
+                <div
+                    class="max-w-screen-xl flex flex-wrap items-center justify-end mx-auto p-4"
                 >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                  >About</a
+                    <button
+                        data-collapse-toggle="navbar-default"
+                        type="button"
+                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        aria-controls="navbar-default"
+                        aria-expanded="false"
+                    >
+                        <span class="sr-only">Open main menu</span>
+                        <svg
+                            class="w-5 h-5"
+                            aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 17 14"
+                        >
+                            <path
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M1 1h15M1 7h15M1 13h15"
+                            />
+                        </svg>
+                    </button>
+                </div>
+                <div
+                    class="max-w-screen-xl flex flex-wrap items-center justify-center mx-auto"
                 >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                  >Services</a
+                    <div
+                        class="hidden w-full md:block md:w-auto"
+                        id="navbar-default"
+                    >
+                        <ul
+                            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+                        >
+                            <li>
+                                <a
+                                    href="#about"
+                                    class="text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                                    >ABOUT ASD</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="#signs"
+                                    class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                                    >SIGNS AND SYMPTOMS</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                                    >CHALLENGES</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                                    >THERAPIES</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                                    >SUPPORT</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                                    >CENTERS</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Hero Section -->
+            <section class="bg-white dark:bg-gray-900">
+                <div
+                    class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12"
                 >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                  >Pricing</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                  >Contact</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
+                    <div class="mr-auto place-self-center lg:col-span-7">
+                        <h1
+                            class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white"
+                        >
+                            Autism Awareness
+                        </h1>
+                        <p
+                            class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
+                        >
+                            Bridging the Gap in Society.
+                        </p>
+                        <a
+                            href="#"
+                            class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+                        >
+                            Learn More
+                        </a>
+                    </div>
+                    <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+                        <img src="./assets/hero.png" alt="mockup" />
+                    </div>
+                </div>
+            </section>
 
-    <main>
-      <section class="bg-white dark:bg-gray-900">
-        <div
-          class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12"
-        >
-          <div class="mr-auto place-self-center lg:col-span-7">
-            <h1
-              class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white"
-            >
-              Autism Awareness
-            </h1>
-            <p
-              class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
-            >
-              Bridging the Gap in Society.
-            </p>
-            <a
-              href="#"
-              class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
-            >
-              Learn More
-            </a>
-          </div>
-          <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            <img src="./assets/hero.png" alt="mockup" />
-          </div>
-        </div>
-      </section>
+            <!-- Features Section -->
+            <section class="bg-white">
+                <div class="container px-6 py-10 mx-auto">
+                    <div
+                        class="grid grid-cols-1 gap-8 my-8 xl:my-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-2"
+                    >
+                        <div
+                            class="p-8 space-y-3 border-2 border-blue-400 rounded-xl"
+                        >
+                            <span class="inline-block text-blue-500">
+                                <img
+                                    src="./assets/puzzle-svgrepo-com.svg"
+                                    alt=""
+                                    class="w-8 h-8"
+                                />
+                            </span>
 
-      <section class="bg-white dark:bg-gray-900">
-        <div class="container px-6 py-10 mx-auto">
-          <div
-            class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-2"
-          >
-            <div
-              class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl"
-            >
-              <span class="inline-block text-blue-500 dark:text-blue-400">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-8 h-8"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"
-                  />
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"
-                  />
-                </svg>
-              </span>
+                            <!-- <h1
+                                class="text-2xl font-semibold text-gray-700 capitalize"
+                            >
+                                elegant Dark Mode
+                            </h1> -->
 
-              <h1
-                class="text-2xl font-semibold text-gray-700 capitalize dark:text-white"
-              >
-                elegant Dark Mode
-              </h1>
+                            <p class="text-gray-500">
+                                Creating a supportive environment for
+                                individuals with Autism Spectrum Disorder (ASD)
+                                starts with understanding their challenges in
+                                social interaction, mental health, and
+                                communication. Through early intervention,
+                                school-based strategies, and community programs,
+                                we can help them develop the skills and
+                                confidence they need to thrive.
+                            </p>
+                        </div>
 
-              <p class="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Provident ab nulla quod dignissimos vel non corrupti doloribus
-                voluptatum eveniet
-              </p>
-            </div>
+                        <div
+                            class="p-8 space-y-3 border-2 border-blue-400 rounded-xl"
+                        >
+                            <span class="inline-block text-blue-500">
+                                <img
+                                    src="./assets/handshake-svgrepo-com.svg"
+                                    alt=""
+                                    class="w-8 h-8"
+                                />
+                            </span>
 
-            <div
-              class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl"
-            >
-              <span class="inline-block text-blue-500 dark:text-blue-400">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-8 h-8"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"
-                  />
-                </svg>
-              </span>
+                            <!-- <h1
+                                class="text-2xl font-semibold text-gray-700 capitalize"
+                            >
+                                Easy to customiztions
+                            </h1> -->
 
-              <h1
-                class="text-2xl font-semibold text-gray-700 capitalize dark:text-white"
-              >
-                Easy to customiztions
-              </h1>
+                            <p class="text-gray-500">
+                                At Centro Escolar University, we encourage you
+                                to join us in raising awareness, breaking down
+                                barriers, and fostering inclusion. Together, we
+                                can empower individuals with ASD to live
+                                fulfilling lives where they feel valued and
+                                supported. Your involvement in key to building a
+                                more inclusive society.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-              <p class="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Provident ab nulla quod dignissimos vel non corrupti doloribus
-                voluptatum eveniet
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
+            <!-- About ASD Section -->
+            <section id="about">
+                <div class="container mx-auto space-y-12">
+                    <div
+                        class="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row"
+                    >
+                        <img
+                            src="./assets/autism.jpg"
+                            alt=""
+                            class="h-80 aspect-video"
+                        />
+                        <div
+                            class="flex flex-col justify-center flex-1 p-6 bg-gray-50"
+                        >
+                            <h3 class="text-3xl font-bold">
+                                What is Autism Spectrum Disorder (ASD)?
+                            </h3>
+                            <p class="my-6">
+                                Autism Spectrum Disorder (ASD) is a neurological
+                                and developmental condition that begins early in
+                                life, affecting behavior, communication, social
+                                interaction, and learning. It impacts brain
+                                structure and function, which is why it is
+                                classified as a developmental disorder. ASD
+                                typically persists throughout a person’s life.
+                            </p>
+                            <p>
+                                ASD varies among individuals, with a wide range
+                                of symptoms, which is why it is referred to as a
+                                spectrum disorder. "ASD" and "autism" are used
+                                interchangeably.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-    <script src="script.js"></script>
-  </body>
+            <!-- Early Signs And Symptoms -->
+            <section id="signs" class="bg-white py-12 px-4 md:px-8 lg:px-16">
+                <div class="max-w-6xl mx-auto">
+                    <h2
+                        class="text-3xl font-bold text-gray-800 mb-12 text-center"
+                    >
+                        Common Signs of Autism
+                    </h2>
+
+                    <!-- Grid layout -->
+                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <!-- Interacting with Others -->
+                        <div class="bg-gray-50 rounded-xl shadow-md p-6">
+                            <div class="flex items-center gap-3 mb-4">
+                                <svg
+                                    class="w-6 h-6 text-blue-600"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M15 10l4.553-2.276A2 2 0 0021 6V5a2 2 0 00-2-2h-1M4 6l4.553 2.276A2 2 0 0011 10h1m-2 0v2m0 0h2m-2 0h-2"
+                                    />
+                                </svg>
+                                <h3 class="text-lg font-semibold text-blue-700">
+                                    Interacting with Others
+                                </h3>
+                            </div>
+                            <ul
+                                class="list-disc list-inside space-y-2 text-gray-700 text-sm"
+                            >
+                                <li>Avoids eye contact</li>
+                                <li>
+                                    Does not respond to their name by 9 months
+                                </li>
+                                <li>
+                                    Does not show facial expressions by 9 months
+                                </li>
+                                <li>Does not use gestures by 12 months</li>
+                            </ul>
+                        </div>
+
+                        <!-- Repetitive behaviors and interest -->
+                        <div class="bg-gray-50 rounded-xl shadow-md p-6">
+                            <div class="flex items-center gap-3 mb-4">
+                                <svg
+                                    class="w-6 h-6 text-pink-600"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M4 6h16M4 10h16M4 14h16M4 18h16"
+                                    />
+                                </svg>
+                                <h3 class="text-lg font-semibold text-pink-700">
+                                    Repetitive Behaviors
+                                </h3>
+                            </div>
+                            <ul
+                                class="list-disc list-inside space-y-2 text-gray-700 text-sm"
+                            >
+                                <li>Gets upset by minor changes</li>
+                                <li>
+                                    Lining up objects and becoming upset if the
+                                    order changes
+                                </li>
+                                <li>Repeating words or phrases (echolalia)</li>
+                                <li>Has obsessive interest</li>
+                            </ul>
+                        </div>
+
+                        <!-- Additional traits -->
+                        <div class="bg-gray-50 rounded-xl shadow-md p-6">
+                            <div class="flex items-center gap-3 mb-4">
+                                <svg
+                                    class="w-6 h-6 text-green-600"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                                    />
+                                </svg>
+                                <h3
+                                    class="text-lg font-semibold text-green-700"
+                                >
+                                    Additional Traits
+                                </h3>
+                            </div>
+                            <ul
+                                class="list-disc list-inside space-y-2 text-gray-700 text-sm"
+                            >
+                                <li>
+                                    Delayed language, movement, or learning
+                                    skills
+                                </li>
+                                <li>Hyperactive or impulsive behavior</li>
+                                <li>Difficulty focusing attention</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Importance of Early Diagnosis -->
+                    <div
+                        class="mt-12 bg-blue-50 border border-blue-200 rounded-lg p-8"
+                    >
+                        <div class="flex items-center gap-3 mb-4">
+                            <svg
+                                class="w-6 h-6 text-blue-800"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                viewBox="0 0 24 24"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M13 16h-1v-4h-1m1-4h.01M12 2a10 10 0 100 20 10 10 0 000-20z"
+                                />
+                            </svg>
+                            <h3 class="text-xl font-semibold text-blue-800">
+                                Importance of Early Diagnosis
+                            </h3>
+                        </div>
+                        <p
+                            class="text-gray-700 leading-relaxed text-sm md:text-base"
+                        >
+                            Early diagnosis of autism allows for timely
+                            interventions that can improve developmental
+                            outcomes and adaptive skills. However, it also
+                            carries risks such as stigma, potential
+                            misdiagnosis, and a complex diagnostic process that
+                            can be emotionally challenging for families.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
 </html>
